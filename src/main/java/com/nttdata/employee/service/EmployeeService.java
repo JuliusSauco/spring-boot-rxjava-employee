@@ -14,5 +14,5 @@ public interface EmployeeService {
 	
 	public Single<Employee> updateEmp(Employee e);
 	
-	public Single<Void> deleteEmp(String id);
+	public Single<String> deleteEmp(String id);
 }
