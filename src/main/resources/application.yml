@@ -1,0 +1,16 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /olympus
+    
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/?readPreference=primary&appname=MongoDB%20Compass&directConnection=true&ssl=false
+  application:
+    name: employee-example-rxjava
+  main:
+    allow-bean-definition-overriding: true
+        
+dbport: 27017
+dbname: employeedb
